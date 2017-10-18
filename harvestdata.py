@@ -45,14 +45,7 @@ cluster_labels=cluster_labels.reshape(-1,1)
 
 print(np.shape(cluster_labels))
 
-'''
-liste=[cluster_labels[i,0] for i in range(len(cluster_labels))]
-print("Winston")
-print(np.shape(liste))
 
-if((liste==kmeans.labels_).all()):
-    print('Halleluija')
-'''
 
 #for i in range(len(cluster_labels)):
    #print(cluster_labels[i])

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ec34038-dbce-434a-a3b0-67fa169e1322" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extracted_flu_non_flu_tweets/flu_examples_bag_of_words.txt" afterPath="$PROJECT_DIR$/extracted_flu_non_flu_tweets/flu_examples_bag_of_words.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extracted_flu_non_flu_tweets/non_flu_examples_bag_of_words.txt" afterPath="$PROJECT_DIR$/extracted_flu_non_flu_tweets/non_flu_examples_bag_of_words.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split_flu_non_flu_tweets.py" afterPath="$PROJECT_DIR$/split_flu_non_flu_tweets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extract_gps_data.py" afterPath="$PROJECT_DIR$/extract_gps_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/harvestdata.py" afterPath="$PROJECT_DIR$/harvestdata.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +17,21 @@
       <file leaf-file-name="extract_gps_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extract_gps_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="500">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#66#84#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assign_tweets_to_clusters.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assign_tweets_to_clusters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="77" lean-forward="false" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -36,6 +43,8 @@
               <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+                <marker date="1508315668000" expanded="true" signature="1382:1448" ph="..." />
+                <marker date="1508315668000" expanded="true" signature="1618:1755" ph="..." />
               </folding>
             </state>
           </provider>
@@ -71,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="find_most_important_term.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="find_most_important_term.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/find_most_important_term.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="48" column="49" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+            <state relative-caret-position="119">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,9 +108,10 @@
         <option value="$PROJECT_DIR$/GPS_data/merge_flu_cluster_data.py" />
         <option value="$PROJECT_DIR$/merge_flu_cluster_data.py" />
         <option value="$PROJECT_DIR$/split_flu_non_flu_tweets" />
-        <option value="$PROJECT_DIR$/extract_gps_data.py" />
         <option value="$PROJECT_DIR$/split_flu_non_flu_tweets.py" />
         <option value="$PROJECT_DIR$/find_most_important_term.py" />
+        <option value="$PROJECT_DIR$/extract_gps_data.py" />
+        <option value="$PROJECT_DIR$/assign_tweets_to_clusters.py" />
       </list>
     </option>
   </component>
@@ -112,7 +122,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
+    <option name="width" value="689" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -186,10 +196,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="871" height="900" extended-state="0" />
+    <frame x="0" y="0" width="829" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41331804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2291918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -237,6 +247,8 @@
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+            <marker date="1508315668000" expanded="true" signature="1382:1448" ph="..." />
+            <marker date="1508315668000" expanded="true" signature="1618:1755" ph="..." />
           </folding>
         </state>
       </provider>
@@ -268,22 +280,14 @@
     <entry file="file://$PROJECT_DIR$/GPS_data/merge_flu_cluster_data.py" />
     <entry file="file://$PROJECT_DIR$/merge_flu_cluster_data.py" />
     <entry file="file://$PROJECT_DIR$/split_flu_non_flu_tweets" />
-    <entry file="file://$PROJECT_DIR$/extract_gps_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#66#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/harvestdata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+            <marker date="1508315668000" expanded="true" signature="1382:1448" ph="..." />
+            <marker date="1508315668000" expanded="true" signature="1618:1755" ph="..." />
           </folding>
         </state>
       </provider>
@@ -314,8 +318,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/find_most_important_term.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="48" column="49" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+        <state relative-caret-position="119">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract_gps_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#66#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign_tweets_to_clusters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="77" lean-forward="false" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
           <folding />
         </state>
       </provider>

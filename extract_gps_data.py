@@ -28,7 +28,7 @@ for index in range(len(GPS_cluster_info)):
         cluster1_points.append(GPS_cluster_info[index])
 
 np.save('cluster1',np.array(cluster1_points))
-
+print(np.shape(np.array(cluster1_points)))
 
 cluster2_points = []
 # store  points belonging to cluster 1 cluster1_points=[]
@@ -36,7 +36,10 @@ for index in range(len(GPS_cluster_info)):
     if GPS_cluster_info[index][2] == 1:
         cluster2_points.append(GPS_cluster_info[index])
 
-np.save('cluster2',np.array(cluster1_points))
+np.save('cluster2',np.array(cluster2_points))
+print(np.shape(np.array(cluster2_points)))
+
+
 
 #convert numpy array to 2D list and associate color red with cluster '0' and color blue with cluster '1'
 GPS_cluster_info=GPS_cluster_info.tolist()
@@ -46,17 +49,3 @@ for index in range(len(GPS_cluster_info)):
     else:
         GPS_cluster_info[index] += ['red']
 
-#arbitrarily assign cluster points to tweets by merging one tweet with one cluster 'GPS' record obtained in the previous step
-count=0
-flu_gps_comb=[]
-with open("extracted_flu_non_flu_tweets/flu_non_flu_tweets.txt", 'r') as f:
-    for line in f:
-        if(count >= len(GPS_cluster_info)):
-            print("more lines that datapoints")
-            break
-        combined_record = [line.split('\t')[i].replace('\n','') for i in range(0,len(line.split('\t')))]+GPS_cluster_info[count]
-        flu_gps_comb.append(combined_record)
-        #print('....')
-        #print(combined_record)
-        #print('....')
-        count += 1
